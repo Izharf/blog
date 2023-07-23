@@ -1,0 +1,70 @@
+.top{
+    width: 100%;
+    Height:60px;
+    background-color:rgba(0, 247, 255, 0.801) ;
+    position: sticky;
+    top: 0;  /* due to sticky and top zero the header will always be in top position when you scroll down */
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+
+}
+.topbar__left,.topbar__right{
+    flex: 3;
+    display:flex;
+    align-items:center;
+    justify-content: center
+    
+   ;
+
+}
+
+.topbar__center{
+ display:flex;
+ flex:6;
+
+ 
+
+}
+
+.topbar__items{
+    margin-right: 20px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor:pointer;
+    
+}
+.topbar__list{
+    display:flex;
+    justify-content: center;
+    list-style:none;
+   
+}
+
+.topbar__right{
+    margin:10px;
+    padding:10px;
+
+}
+
+.fa-brands{
+    margin-right:10px;
+    cursor:pointer;
+}
+
+.topbar__image{
+    
+    border-radius: 50%;
+    width: 50px; 
+    height: 50px;
+    margin-right: 20px;
+    cursor:pointer;
+}
+
+.topbar__search{
+ cursor:pointer;
+ color: #666;
+ 
+}
+
